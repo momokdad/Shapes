@@ -38,6 +38,10 @@ public class Main {
 				+ "\n" + "Perimeter is: " + trianglePerimeter
 				+ "\n" + "---------------------------");
 
+		// Overloading function:
+		double trianglePerimeter2 =  triangle.calculatePerimeter(12, 13, 14);
+		System.out.println("Triangle perimeter is: " + trianglePerimeter2);
+
 		// Setting to minus value validation:
 		try {
 			triangle.setHeight(-11);
