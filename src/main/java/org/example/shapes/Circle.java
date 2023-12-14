@@ -13,7 +13,9 @@ public class Circle implements Shape {
 	}
 
 	public void setRad(double rad) {
-		if (isPositive(rad)) this.rad = rad;
+		if (isPositive(rad)) {
+			this.rad = rad;
+		}
 	}
 
 	@Override
